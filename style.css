@@ -1,0 +1,159 @@
+/* body{font-family: Lobster, cursive;} */
+h1 {
+    font-weight: 700;
+    font-size: 45px;
+
+}
+
+p {
+    font-size: 18px;
+}
+
+#banner {
+    background-image: url(pic-1.png);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header {
+
+    background: linear-gradient(90deg, #1A1A1A -0.7%, rgba(26, 26, 26, 0) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+
+.top-h1 {
+    font-size: 55px;
+}
+
+.header-text {
+    padding-left: 100px;
+    text-align: start;
+    width: 40%;
+}
+
+button {
+    padding: 16px 20px;
+    background: #EF233C;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
+.part1-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 130px 10% 0 10%;
+}
+
+.relative-img {
+    width: 70px!important;
+    position: relative;
+    top:-300px;
+    left:200px;
+
+}
+
+.part1-text {
+    width: 50%;
+    padding: 20px;
+}
+
+.part1-img {
+    width: 50%;
+}
+
+
+.part1-img img {
+    width: 100%;
+}
+
+.part1-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 10% 0 10%;
+}
+
+.boxs {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px 10% 70px 10%;
+
+}
+
+.box {
+    background-color: #FEF4F5;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    align-items: start;
+}
+
+.part3 {
+    display: flex;
+    margin: 0 5%;
+}
+
+.box-img {
+    width: 100%;
+}
+
+.part3 img {
+    width: 100%;
+    margin: 0 5px;
+}
+
+.part-head {
+    margin: 50px 20% 30px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 50px 5%;
+}
+
+.card {
+    border-radius: 10px;
+    border: 1px solid #D9D9D9;
+    width: 100%;
+    margin: 0 5px;
+
+}
+
+.card-text {
+    padding: 0 20px;
+}
+
+.card-img img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h3 {
+    text-decoration: underline;
+    color: red;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer>h1 {
+    color: red;
+    font-family: "Lobster";
+}
